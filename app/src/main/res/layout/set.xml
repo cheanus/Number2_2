@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center_horizontal"
+	android:background="#FFA1D6F5">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#FF468DFB">
+
+		<ImageView
+			android:layout_gravity="center"
+			android:id="@+id/Back"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:layout_margin="5dp"
+			android:src="@drawable/phtopBack"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:textSize="40sp"
+			android:text="设置"
+			android:layout_marginRight="30dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#FFA1D6F5">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="难度"
+			android:textSize="30sp"
+			android:textColor="#FF5FAAB6"
+			android:layout_marginBottom="10dp"
+			android:layout_gravity="left"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="纪录:"
+			android:textColor="#FFC56C06"
+			android:textSize="40sp"
+			android:layout_marginLeft="60dp"
+			android:id="@+id/recordTime"/>
+
+	</LinearLayout>
+
+	<RadioGroup
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_margin="20dp"
+		android:orientation="vertical"
+		android:id="@+id/groupDifficulty">
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="简单"
+			android:id="@+id/easy"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="中等"
+			android:id="@+id/medium"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="困难"
+			android:id="@+id/hard"/>
+
+	</RadioGroup>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="先手"
+		android:textSize="30sp"
+		android:textColor="#FF5FAAB6"
+		android:layout_marginBottom="10dp"
+		android:layout_gravity="left"/>
+
+	<RadioGroup
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_margin="20dp"
+		android:orientation="vertical"
+		android:id="@+id/groupFirst">
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="玩家先手"
+			android:id="@+id/playerFirst"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="电脑先手"
+			android:id="@+id/computerFirst"/>
+
+	</RadioGroup>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="地图"
+		android:textSize="30sp"
+		android:textColor="#FF5FAAB6"
+		android:layout_marginBottom="10dp"
+		android:layout_gravity="left"/>
+
+	<RadioGroup
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_margin="20dp"
+		android:orientation="vertical"
+		android:id="@+id/groupMap">
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="4x5"
+			android:id="@+id/map20"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="5x6"
+			android:id="@+id/map30"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="6x7"
+			android:id="@+id/map42"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="7x8"
+			android:id="@+id/map56"/>
+
+	</RadioGroup>
+
+</LinearLayout>
+

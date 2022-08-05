@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Number</string>
+    <string name="about">
+		\n设计团队版权所有\n\n
+
+		程序设计: @QianxiaXingyuZhihan\n\n
+	</string>
+	<string name="help">
+		\n规则:轮到行动方时，在地图上点出相邻的数字，不能只点一个数或已点区域，\n\n
+
+		对于4*5地图，每次所点数字和不可超过30，详见下表\n\n
+
+		地图   最大的数总和\n
+		4*5      30\n
+		5*6      45\n
+		6*7      63\n
+		7*8      84\n\n
+
+		按“确定”键后换后者行动，所点数字将会消失\n\n
+		
+		最终无法行动者输。\n\n
+
+		三种不同难度的最快历史记录将保存。\n\n
+
+		设置中可选择不同的游戏模式。\n\n
+
+		Good luck!\n
+	</string>
+
+</resources>
